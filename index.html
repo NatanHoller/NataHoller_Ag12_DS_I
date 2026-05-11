@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus sites favoritos</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1 {
+            background-color: #4a4a4a;
+            color: white;
+            padding: 20px;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 30px;
+        }
+
+        .card {
+            background-color: white;
+            width: 220px;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card img {
+            width: 180px;
+            height: 180px;
+            object-fit: contain;
+        }
+
+        .card h2 {
+            color: #333;
+        }
+
+        .card a {
+            display: inline-block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: white;
+            background-color: #0077ff;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+
+        .card a:hover {
+            background-color: #005ecc;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Meus sites favoritos Natã Holler</h1>
+
+    <div class="container">
+
+        <!-- Google -->
+        <div class="card">
+            <h2>Google</h2>
+
+            <!-- Imagem do Google -->
+            <img src="https://cdn-icons-png.flaticon.com/512/300/300221.png" alt="Google">
+
+            <!-- Link do site -->
+            <br>
+            <a href="https://www.google.com" target="_blank">
+                Acessar Google
+            </a>
+        </div>
+
+        <!-- YouTube -->
+        <div class="card">
+            <h2>YouTube</h2>
+
+            <!-- Imagem do YouTube -->
+            <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube">
+
+            <!-- Link do site -->
+            <br>
+            <a href="https://www.youtube.com" target="_blank">
+                Acessar YouTube
+            </a>
+        </div>
+
+        <!-- ChatGPT -->
+        <div class="card">
+            <h2>ChatGPT</h2>
+
+            <!-- Imagem do ChatGPT -->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" alt="ChatGPT">
+
+            <!-- Link do site -->
+            <br>
+            <a href="https://chat.openai.com" target="_blank">
+                Acessar ChatGPT
+            </a>
+        </div>
+
+        <!-- Spotify -->
+        <div class="card">
+            <h2>Spotify</h2>
+
+            <!-- Imagem do Spotify -->
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174872.png" alt="Spotify">
+
+            <!-- Link do site -->
+            <br>
+            <a href="https://www.spotify.com" target="_blank">
+                Acessar Spotify
+            </a>
+        </div>
+
+        <!-- Instagram -->
+        <div class="card">
+            <h2>Instagram</h2>
+
+            <!-- Imagem do Instagram -->
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram">
+
+            <!-- Link do site -->
+            <br>
+            <a href="https://www.instagram.com" target="_blank">
+                Acessar Instagram
+            </a>
+        </div>
+
+    </div>
+
+</body>
+</html>
