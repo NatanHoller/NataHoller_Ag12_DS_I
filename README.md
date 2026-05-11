@@ -3,8 +3,6 @@ Projeto da atividade Ag12 de Desenvolvimento de Sistemas - Página de sites favo
 
 # &#127760; Meus Sites Favoritos
 
-Projeto desenvolvido para a atividade Ag12 da disciplina de Desenvolvimento de Sistemas.
-
 ## &#128204; Descrição
 
 Esta página web foi criada utilizando HTML e CSS com o objetivo de apresentar meus sites favoritos de forma organizada e visual.
